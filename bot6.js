@@ -55,4 +55,21 @@ client.on('message', msg => {
 
 
 
+client.on('message', msg => {
+  if (msg.content === 'الشعار') {
+    msg.reply('__الشعار في اللعبة__
+```fix
+! ϾƝ☭
+```
+__الشعار باسمك بالديسكورد__
+
+```fix
+! CN |
+```');
+
+    }
+});
+
+
+
 client.login(process.env.BOT_TOKEN6);
