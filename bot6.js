@@ -46,7 +46,11 @@ client.on('message', msg => {
   }
 });
 
-
+client.on('message', msg => {
+  if (msg.content === 'باي') {
+    msg.reply('لاتتاخر!');
+  }
+});
 
 
 
