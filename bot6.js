@@ -52,9 +52,6 @@ client.on('message', msg => {
   }
 });
 
-
-
-
 client.on('message', msg => {
   if (msg.content === 'الشعار') {
     msg.reply('__الشعار في اللعبة__
@@ -66,9 +63,10 @@ __الشعار باسمك بالديسكورد__
 ```fix
 ! CN |
 ```');
-
-    }
+  }
 });
+
+
 
 
 
