@@ -12,9 +12,6 @@ client.on('ready', () => {
 
 
 
-client.login(client.login(process.env.BOT_TOKEN9););
-
-
 
 
 
@@ -64,3 +61,6 @@ $mute
     
    }
    }); 
+
+
+client.login(client.login(process.env.BOT_TOKEN9););
