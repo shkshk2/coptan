@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 
 
-client.login('token'); 
+client.login(client.login(process.env.BOT_TOKEN9);); 
 
 
 
@@ -26,13 +26,41 @@ client.login('token');
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
       .setDescription(`
-هنا الاوامر
+╭━━━┳━╮╱╭╮╭╮╱╭╮╱╱╭╮╭━━━╮
+┃╭━╮┃┃╰╮┃┃┃┃╱┃┃╱╱┃┃┃╭━╮┃
+┃┃╱╰┫╭╮╰╯┃┃╰━╯┣━━┫┃┃╰━╯┃
+┃┃╱╭┫┃╰╮┃┃┃╭━╮┃┃━┫┃┃╭━━╯
+┃╰━╯┃┃╱┃┃┃┃┃╱┃┃┃━┫╰┫┃
+╰━━━┻╯╱╰━╯╰╯╱╰┻━━┻━┻╯
+CN BOT | By : @! CN |MrCopTan#1363
+
+ #color   : لتغيير لونك في السيرفر
+ #colors  : قائمة الألوان
+  #id   : الهوية
+  #profile  : الملف الشخصي
+  #rep  : اعطاء نقاط تقييم
+  #daily  : الحصول على الراتب اليومي
+  #credits  : التحويل ومعرفة الرصيد
+  #points   : النقاط((للمسابقات))
+  #roll  :  القرعه
+  #short  : أختصار الروابط 
+
+
+ أوامر ادارة السيرفرات 
+ #mute
+ #unmute
+ #clear
+  #points <MENTION> <POINTS> 
+  !#id  : #id اعدادات الأمر
+  #server  : معلومات السيرفر
+  #roles  : معرفة رولات السيرفر
+
+ اخرى 
+  #invite  : لدعوة البوت الى سيرفرك
+  #ping  : لمعرفة سرعة استجابة البوت في الوقت الحالي
+  #support  : سيرفر الدعم الفني
 `)
    message.author.sendEmbed(embed)
     
    }
    }); 
-   
-   
-   
-   client.login(process.env.BOT_TOKEN9);
