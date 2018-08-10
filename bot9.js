@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 
 
-client.login('التوكن');
+client.login(client.login(process.env.BOT_TOKEN9););
 
 
 
