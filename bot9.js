@@ -86,7 +86,7 @@ Server support: https://discord.gg/uXvYbtB
 
 ==================================================================
 
-bot invite link: NDc3MDU5MTk1NzIwNDMzNjg1.Dk-CEg.WWAUiRKpY144UvrUm-TqKa3tndE
+bot invite link: https://discordapp.com/api/oauth2/authorize?client_id=477059195720433685&permissions=8&scope=bot
 
 ==================================================================
 
