@@ -1,68 +1,101 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const prefix = "برفكس بوتك" //غير "برفكس بوتك" لي برفكس بوتك
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-client.on('ready', () => {
-    client.user.setActivity("Alpha Codes. | Mohamed",{type: 'WATCHING'})
-
-});
+client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-en") {
+		 message.channel.send('**The Message Was Sent On Private**');
+            
+	
+		 
 
 
-
-client.login(process.env.BOT_TOKEN9);
-
-
-
-
-   client.on("message", message => { //سطر بدايه كل كود
-    var prefix = "$"; //هنا غير $ لي برفكس بوتك
- if (message.content === "$help") { //وهنا كمان غير $ لي برفكس بوتك
-         message.react('👌') //اذا كتبت الامر يحط رياكشن
-     message.channel.send('**تم ارسالك في الخاص** :mailbox_with_mail: '); //يكتب بلشات ان تم ارسال بلخاص
-  const embed = new Discord.RichEmbed() 
-      .setColor("#000000")
-      .setDescription(`
+ message.author.sendMessage(`
+ **
+__~~CN 4 EveR bot~~__ By: Peery#7863
 ╭━━━┳━╮╱╭╮╭╮╱╭╮╱╱╭╮╭━━━╮
 ┃╭━╮┃┃╰╮┃┃┃┃╱┃┃╱╱┃┃┃╭━╮┃
 ┃┃╱╰┫╭╮╰╯┃┃╰━╯┣━━┫┃┃╰━╯┃
 ┃┃╱╭┫┃╰╮┃┃┃╭━╮┃┃━┫┃┃╭━━╯
 ┃╰━╯┃┃╱┃┃┃┃┃╱┃┃┃━┫╰┫┃
 ╰━━━┻╯╱╰━╯╰╯╱╰┻━━┻━┻╯
-CN BOT | By : @! CN |MrCopTan#1363
+╔[❖════════════❖]╗
+             Prefix = ' * '
+╚[❖════════════❖]╝
 
- $color   : لتغيير لونك في السيرفر
- $colors  : قائمة الألوان
- $id   : الهوية
-  $profile  : الملف الشخصي
-  $rep  : اعطاء نقاط تقييم
-  $daily  : الحصول على الراتب اليومي
-  $credits  : التحويل ومعرفة الرصيد
-  $points   : النقاط((للمسابقات))
-  $roll  :  القرعه
-  $short  : أختصار الروابط 
+╔[❖════════════❖]╗
+             Admin Commands
+╚[❖════════════❖]╝
 
+ ❖ *kick <mention > ➾ kick member from server
 
- أوامر ادارة السيرفرات 
-$mute
- $unmute
- $clear
-  $points <MENTION> <POINTS> 
-  !$id  : $id اعدادات الأمر
-  $server  : معلومات السيرفر
-  $roles  : معرفة رولات السيرفر
+ ❖ *clear ➾ clear chat ( not ready yet fixing)
+ 
+ ❖ *mute < mention > ➾ mute member
 
- اخرى 
-  $invite  : لدعوة البوت الى سيرفرك
-  $ping  : لمعرفة سرعة استجابة البوت في الوقت الحالي
-  $support  : سيرفر الدعم الفني
-`)
-   message.author.sendEmbed(embed)
-    
-   }
-   }); 
+ ❖ *unmute <mention> ➾ unmute member
+
+ ❖ *ct <name> ➾ create channel
+
+ ❖ *cv <name> create voice channel
+  
+ ❖ *bc <message> ➾ message all members in server
 
 
-client.login(client.login(process.env.BOT_TOKEN9););
+╔[❖════════════❖]╗
+            General  Commands
+╚[❖════════════❖]╝
+
+❖ *roll <number> ➾ role 
+
+❖ *date ➾ see date
+
+❖ *member ➾ members info
+
+❖ *ser-av ➾ server avatar
+
+❖ *uptime ➾ to see uptime
+
+❖ *invs ➾ server invite link
+
+❖ *own ➾ bot owner
+
+❖ *id ➾ your id
+
+❖ *avatar ➾ your avatar account
+
+❖ *help-en ➾ help by arabic
+
+❖ *help-en ➾ help by english
+
+❖ *ping ➾ to see ping
+
+❖ *bot ➾ bot informations 
+
+❖ *server ➾ server informations 
+
+❖ *invite ➾ bot invite link
+
+╔[❖════════════❖]╗
+                    Welcome
+╚[❖════════════❖]╝
+
+to enable welcome message do channel name "wlc"
+
+
+==================================================================
+
+Server support: https://discord.gg/uXvYbtB
+
+==================================================================
+
+bot invite link: NDc3MDU5MTk1NzIwNDMzNjg1.Dk-CEg.WWAUiRKpY144UvrUm-TqKa3tndE
+
+==================================================================
+
+`);
+
+    }
+});
+
+
+
+
+client.login(process.env.BOT_TOKEN9);
