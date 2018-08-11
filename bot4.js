@@ -77,3 +77,11 @@ client.on('message', msg => {
     msg.reply('**📩 شيك علي الخاص**');
   }
 });
+
+
+
+
+
+
+
+client.login(process.env.BOT_TOKEN4);
