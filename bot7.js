@@ -266,4 +266,4 @@ $1{prefix}skip ⇏ لتجآوز الأغنية الحآلية
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN7);
