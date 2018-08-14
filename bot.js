@@ -5,6 +5,28 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '479037707352539168').setName("W");
+client.channels.find('id', '479037707352539168').setName("We");
+client.channels.find('id', '479037707352539168').setName("Wel");
+client.channels.find('id', '479037707352539168').setName("Welc");
+client.channels.find('id', '479037707352539168').setName("Welco");
+client.channels.find('id', '479037707352539168').setName("Welcom");
+client.channels.find('id', '479037707352539168').setName("Welcome");
+client.channels.find('id', '479037707352539168').setName("Welcome T");
+client.channels.find('id', '479037707352539168').setName("Welcome To");
+client.channels.find('id', '479037707352539168').setName("Welcome To C");
+client.channels.find('id', '479037707352539168').setName("Welcome To CN");
+client.channels.find('id', '479037707352539168').setName("Welcome To CN C");
+client.channels.find('id', '479037707352539168').setName("Welcome To CN CL");
+client.channels.find('id', '479037707352539168').setName("Welcome To CN CLA");
+client.channels.find('id', '479037707352539168').setName("Welcome To CN CLAN");
+  }, 3000);
+});
+
+
 client.on('message', msg => {
   if (msg.content === 'باك') {
     msg.reply('ولكم منور يا عسل!');
