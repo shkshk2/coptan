@@ -50,21 +50,21 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === 'برب') {
-    msg.reply('تيت!');
+    msg.reply('تْيٌـتْ , تْرُجِعٍ بّـاٌلِـسُلِـاٌمِـةُ!');
   }
 });
 
 
 client.on('message', msg => {
   if (msg.content === 'السلام عليكم') {
-    msg.reply('عليم السلام!');
+    msg.reply('وعڵيڪم ٱڵسڵٱم ورحمهہ ٱڵڵهہ وبرڪٱتهہ!');
   }
 });
 
 
 client.on('message', msg => {
   if (msg.content === 'السلام عليكو') {
-    msg.reply('عليكم السلام!');
+    msg.reply('وعڵيڪم ٱڵسڵٱم ورحمهہ ٱڵڵهہ وبرڪٱتهہ!');
   }
 });
 
@@ -77,10 +77,13 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-  if (msg.content === 'نعم') {
-    msg.reply('انعم الله عليك!');
+  if (msg.content === 'الشعار') {
+    msg.reply('آلشعار في الديسكورد ! CN | الشعار في آقاريو! C̵ℕ |!');
   }
 });
+
+
+
 
 client.on('message', msg => {
   if (msg.content === '.') {
